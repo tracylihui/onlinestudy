@@ -1,0 +1,27 @@
+#sddm
+{	width:960px; height:120px; background:url(image/ox-banner.png); margin:0 auto; position:relative;z-index: 30}
+#sddm ul{ position:absolute; bottom:0; height: 36px; margin-bottom:1px;}
+#sddm li
+{	text-align: center; line-height: 36px; width:120px; display:inline; float:left; font-size:17px; background-color:#f7f7f7;border:1px solid #ababab; cursor:pointer; margin-right:7px; }
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background-color:#495360;
+	width:120px;
+	}
+#sddm div a
+	{	position: relative;line-height: 36px;font-size:15px;cursor:pointer; 
+		display: block;
+		white-space: nowrap;
+		text-align: center;
+		text-decoration: none;
+		background-color:#495360;
+		color: #FFFFFF;
+		}
+
+	#sddm div a:hover
+	{	background-color:#49536E;
+		color: #FFF}
